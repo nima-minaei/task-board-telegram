@@ -2,6 +2,8 @@
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <h2> Test learea app</h2>
+    </div>
   );
 }
