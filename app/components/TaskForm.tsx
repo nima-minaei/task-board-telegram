@@ -27,7 +27,7 @@ export default function TaskForm({ groupId }: TaskFormProps) {
       setTitle('');
       setError(null);
     } catch (err) {
-      console.error('Error adding task:', error);
+      console.error('Error adding task:', error);   
       setError('Failed to add task');
     }
   };
